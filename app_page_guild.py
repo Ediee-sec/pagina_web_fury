@@ -2,9 +2,6 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-cert_path = '/etc/ssl/certs/ssl-cert-snakeoil.pem'
-key_path = '/etc/ssl/private/ssl-cert-snakeoil.key'
-
 @app.route('/', methods=['GET'])
 def index():
     return render_template('index.html')
