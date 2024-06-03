@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Guild Fury</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-device, initial-scale=1.0 maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+	<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+	<link rel="icon" href="{{ url_for('static', filename='images/icone.ico') }}" type="image/x-icon">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KH89KHE137"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-KH89KHE137');
+	</script>
+</head>
+
+<body>
+		
+	<div class="header">
+	
+		<div class="centro">
+			<img src="{{ url_for('static', filename='images/logo.png') }}">
+
+			<nav>
+				<ul>
+					<a href="{{ url_for('index') }}">Home</a>
+
+					<li class="dropdown">
+
+						<a href="#">Mídias ᐁ</a>
+
+						<div class="dropdown-content">
+							<a href="{{ url_for('fotos') }}">Fotos</a>
+							<a href="{{ url_for('videos') }}">Vídeos</a>
+						</div>
+
+					</li>
+
+					<a href="{{ url_for('sobre_nos') }}">Sobre Nós</a>
+					<a href="https://tlacademy.mercadoonlinedigital.com/" target="_blank">Guias</a>
+					<a href="{{ url_for('formulario') }}">Recrutamento</a>
+					<a href="https://discord.gg/furyteam" target="_blank">Discord</a>
+				</ul>
+			<nav>
+		</div><!--centro-->
+	</div><!--header-->
+
+
+	<div class="banner">
+		<div class="centro">
+			<!-- <div class="box">
+
+				<p>Somos uma guilda experiente, competitiva e hardcore em MMORPG. Nosso foco é o PvP em Throne and Liberty, onde dominamos cada classe e criamos builds especializadas. Somos organizados e determinados, unidos pelo objetivo comum de alcançar a grandeza no jogo. Junte-se a nós e seja parte da lenda!</p>
+				<p>Nosso estilo de jogo é focado em PVP, </p>
+				<p>Estamos nos organizando para o lançamento global</p>
+			</div>box -->
+			<!-- <div class="form">
+				<form>
+					<h2>Preencha o formulario para fazer parte da guild</h2>
+
+					<div class="input-container">
+						<span>Nick*</span>
+						<input type="text" name="nome" required>
+					</div>
+
+					<div class="input-container">
+						<span>E-mail*</span>
+						<input type="text" name="nome" required>
+					</div>
+
+					<div class="input-container">
+						<span>Discord*</span>
+						<input type="text" name="nome" required>
+					</div>
+
+					<p>CAMPOS OBRIGATÓRIOS*</p>
+
+					<input type="submit" name="acao" value="ENVIAR">
+				</form> -->
+			</div><!--form-->
+		</div><!--centro-->
+	</div><!--banner-->
+
+	<div class="info">
+	<div class="centro">
+		<h2>Oque esperamos dos novos jogadores?</h2>
+		<p>
+			Participação ativa em atividades da guilda, como raids e eventos, trabalhando em equipe, compartilhando recursos e ajudando os colegas. Mantenha respeito e siga as diretrizes da guilda, comunicando-se de forma clara e participativa para promover um ambiente positivo. Busque crescimento pessoal e contribua para o sucesso coletivo, sempre mantendo o foco em se divertir e criar memórias inesquecíveis juntos nos MMORPGs.
+
+			Se você está pronto para abraçar essas expectativas, junte-se a nós na Fury.
+		</p>
+		<div class="seta"></div>
+
+	
+	</div><!--centro-->
+	</div><!--info-->
+
+	<div class="section">
+	<div class="centro">
+		<h2>Oque Oferecemos</h2>
+		<div class="sub-section">
+
+			<div class="single">
+				<img src="{{ url_for('static', filename='images/lideranca.png') }}">
+			<div class="text-single">
+				<h2>Liderança Organizada</h2>
+				<p>Estamos em uma posição privilegiada, contando com uma liderança experiente em Throne and Liberty, composta por especialistas em todas as classes e mecânicas do jogo. Desenvolvemos um plano meticuloso e bem definido para nos tornarmos uma guild dominante na região SA</p>
+			</div><!--text-single1-->
+			</div><!--single-->
+
+				<div class="single">
+				<img src="{{ url_for('static', filename='images/pvp.png') }}">
+			<div class="text-single">
+				<h2>Competição constante</h2>
+				<p>Nossa principal meta é competir pelos recursos de alto nível do jogo. Comprometemo-nos a representar nossa guild em todos os eventos, seja de PvP ou não, assegurando nossa presença constante e ativa em todas as oportunidades que surgirem.</p>
+			</div><!--text-single1-->
+			</div><!--single-->
+
+				<div class="single">
+				<img src="{{ url_for('static', filename='images/loot.png') }}">
+			<div class="text-single">
+				<h2>Distribuição justa de loot</h2>
+				<p>Adotamos o reconhecido sistema DKP para uma distribuição equitativa de loots entre nossos membros, assegurando que os jogadores mais engajados possam equipar-se rapidamente e estar prontos para os desafios que enfrentamos</p>
+			</div><!--text-single1-->
+			</div><!--single-->
+			
+		</div><!--sub-section-->
+	</div><!--centro-->
+	</div><!--section-->
+
+	<div class="roda">
+		<p>Todos os Direitos Reservados</p>
+		<p>GUILD FURY </p>
+	</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Guild Fury</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-device, initial-scale=1.0 maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+	<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+</head>
+
+<body class="back_sobrenos">
+		
+	<div class="header">
+	
+		<div class="centro">
+			<img src="{{ url_for('static', filename='images/logo.png') }}">
+
+			<nav>
+				<ul>
+					<a href="{{ url_for('index') }}">Home</a>
+
+					<li class="dropdown">
+					
+						<a href="">Mídias ᐁ</a>
+
+						<div class="dropdown-content">
+							<a href="{{ url_for('fotos') }}">Fotos</a>
+							<a href="{{ url_for('videos') }}">Vídeos</a>
+						</div>
+
+					</li>
+
+					<a href="{{ url_for('sobre_nos') }}">Sobre Nós</a>
+					<a href="https://tlacademy.mercadoonlinedigital.com/" target="_blank">Guias</a>
+					<a href="{{ url_for('formulario') }}">Recrutamento</a>
+					<a href="https://discord.gg/furyteam" target="_blank">Discord</a>
+				</ul>
+			<nav>
+		</div><!--centro-->
+	</div><!--header-->
+
+
+	
+	<div class="box">
+		<p>Somos uma comunidade de jogadores apaixonados e experientes em MMORPG, onde a competitividade e o desafio são nossos motores. Como jogadores hardcore, buscamos constantemente a excelência em cada aspecto do jogo.</p>
+		<p>Nosso foco principal reside no PvP, onde demonstramos nossa habilidade e estratégia. Dominamos cada detalhe do universo de Throne and Liberty, conhecendo suas mecânicas e nuances de forma profunda.</p>
+		<p>O coração de nossa guilda reside na especialização. Temos membros dedicados, especialistas em cada classe do jogo, garantindo que dominemos todos os aspectos do combate. Além disso, nossa expertise se estende à criação de builds, permitindo-nos maximizar o potencial de cada personagem.</p>
+		<p>Nossa organização é a chave do nosso sucesso. Desde a coordenação de ataques até a gestão de recursos, cada membro desempenha um papel vital em nossa estrutura. Somos uma equipe coesa, unida pelo objetivo comum de alcançar a grandeza no mundo de Throne and Liberty.</p>
+		<p>Junte-se a nós e descubra o verdadeiro significado da camaradagem e da vitória em nosso universo virtual. Juntos, somos imparáveis. Junte-se à Fury e torne-se parte da lenda."</p>
+	</div>
+	
+
+	<div  class="roda_sobrenos">
+		<p>Todos os Direitos Reservados</p>
+		<p>GUILD FURY </p>
+	</div >
+
+
+</body>
+
+</html>

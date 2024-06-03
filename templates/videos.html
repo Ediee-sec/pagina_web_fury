@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Guild Fury</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-device, initial-scale=1.0 maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+	<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="body_video">
+		
+	<div class="header">
+	
+		<div class="centro">
+			<img src="{{ url_for('static', filename='images/logo.png') }}">
+
+			<nav>
+				<ul>
+					<a href="{{ url_for('index') }}">Home</a>
+
+					<li class="dropdown">
+
+						<a href="">Mídias ᐁ</a>
+
+						<div class="dropdown-content">
+							<a href="{{ url_for('fotos') }}">Fotos</a>
+							<a href="{{ url_for('videos') }}">Vídeos</a>
+						</div>
+
+					</li>
+
+					<a href="{{ url_for('sobre_nos') }}">Sobre Nós</a>
+					<a href="https://tlacademy.mercadoonlinedigital.com/" target="_blank">Guias</a>
+					<a href="{{ url_for('formulario') }}">Recrutamento</a>
+					<a href="https://discord.gg/furyteam" target="_blank">Discord</a>
+				</ul>
+			<nav>
+		</div><!--centro-->
+	</div><!--header-->
+
+	<!-- <div class="construcao">
+		<img src="https://www.gov.br/agricultura/pt-br/assuntos/riscos-seguro/imagens/em_construao.png/@@images/image.png" alt="">
+	</div> -->
+
+	<div class="box_videos">
+		<div class="container">
+		<div class="main-video-content">
+			<iframe src="" ></iframe>
+			<label class="main-info"></label>
+		</div>
+		<div class="playlist"></div>
+		</div>
+	</div>
+
+	<script src="{{ url_for('static', filename='js/script.js') }}" type="module"></script>
+
+
+	<div class="roda">
+		<p>Todos os Direitos Reservados</p>
+		<p>GUILD FURY </p>
+	</div>
+
+
+</body>
+
+</html>

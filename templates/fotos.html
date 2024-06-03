@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Guild Fury</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-device, initial-scale=1.0 maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+	<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+		
+	<div class="header">
+	
+		<div class="centro">
+			<img src="{{ url_for('static', filename='images/logo.png') }}">
+
+			<nav>
+				<ul>
+					<a href="{{ url_for('index') }}">Home</a>
+
+					<li class="dropdown">
+
+						<a href="">Mídias ᐁ</a>
+
+						<div class="dropdown-content">
+							<a href="{{ url_for('fotos') }}">Fotos</a>
+							<a href="{{ url_for('videos') }}">Vídeos</a>
+						</div>
+
+					</li>
+
+					<a href="{{ url_for('sobre_nos') }}">Sobre Nós</a>
+					<a href="https://tlacademy.mercadoonlinedigital.com/" target="_blank">Guias</a>
+					<a href="{{ url_for('formulario') }}">Recrutamento</a>
+					<a href="https://discord.gg/furyteam" target="_blank">Discord</a>
+				</ul>
+			<nav>
+		</div><!--centro-->
+	</div><!--header-->
+
+	<section class="gallery">
+		<img src="https://i.imgur.com/VvSj0gP.jpeg" alt="">
+		<img src="https://i.imgur.com/QCywDIM.jpeg" alt="">
+		<img src="https://i.imgur.com/ZKaotPO.jpeg" alt="">
+		<img src="https://i.imgur.com/scBd5KB.jpeg" alt="">
+		<img src="https://i.imgur.com/6anCTwF.jpeg" alt="">
+		<img src="https://i.imgur.com/Hj4Auhl.jpeg" alt="">
+		<img src="https://i.imgur.com/rSkzjim.jpeg" alt="">
+		<img src="https://i.imgur.com/MiVKeS0.jpeg" alt="">
+		<img src="https://i.imgur.com/Au2IChj.jpeg" alt="">
+		<img src="https://i.imgur.com/LOC21CJ.jpeg" alt="">
+		<img src="https://i.imgur.com/DxMcd0t.jpeg" alt="">
+		<img src="https://cdn.discordapp.com/attachments/1093877677095665785/1237512727396614306/00-45-55-961_2024-03-27_SepaEuVo_Image.jpg?ex=663beb0a&is=663a998a&hm=6a4b643c9569a71d1cc9b0358d7f70d8b6ae6c7c39f64df33aa2e7eeb14aeb1c&" alt="">
+		<img src="https://cdn.discordapp.com/attachments/1229813381066657883/1237484133354176562/image.png?ex=663bd068&is=663a7ee8&hm=fe46a70cf4e61ade7fe1b609f19d48b0fd895cebece8c8e89e4c473ce848e739&" alt="">
+		<img src="https://cdn.discordapp.com/attachments/1229813381066657883/1237484300602179584/SIEGE_1.JPG?ex=663bd090&is=663a7f10&hm=8ad023332b8cb73e358e4f0159d82d789f731451ac9727ce0d8bdb86e8a38217&" alt="">
+		<img src="https://cdn.discordapp.com/attachments/1093877677095665785/1237511919477198890/06-25-16-812_2024-03-10_SepaEuVo_Image.jpg?ex=663bea49&is=663a98c9&hm=800fe662eb0c9ece4935944c31eb1b2f21e0620dc7d64e365e92d328d95c7f12&" alt="">
+		<img src="https://cdn.discordapp.com/attachments/1093877677095665785/1237512203343757323/06-31-16-395_2024-03-10_SepaEuVo_Image.jpg?ex=663bea8d&is=663a990d&hm=add3f0996e72c442c850f98c2360276b5c7ac8db7c7c08636e004e09b0d4edd2&" alt="">
+	</section>
+
+	<div class="roda">
+		<p>Todos os Direitos Reservados</p>
+		<p>GUILD FURY </p>
+	</div>
+
+
+</body>
+
+</html>
