@@ -1,1 +1,1 @@
-web: python app_page_guild.py
+web: gunicorn python app_page_guild:app
